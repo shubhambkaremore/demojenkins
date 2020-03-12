@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.Alsis.AlsisOLX.SerachBarTest">
+        <methods>
+          <include name="SearchTest"/>
+        </methods>
+      </class> <!-- com.Alsis.AlsisOLX.SerachBarTest -->
+      <class name="com.Alsis.AlsisOLX.AllCateegoriesDropDown">
+        <methods>
+          <include name="Categoriesdropdown"/>
+        </methods>
+      </class> <!-- com.Alsis.AlsisOLX.AllCateegoriesDropDown -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
